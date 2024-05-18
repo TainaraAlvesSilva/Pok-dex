@@ -1,2 +1,2 @@
-# Pok-dex
+# Pokédex
 Desenvolvimento de uma Pokédex utilizando API
