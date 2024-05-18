@@ -1,0 +1,43 @@
+body {
+    background: rgb(0,36,34);
+    background: linear-gradient(90deg, rgba(0,36,34,1) 0%, rgba(0,212,255,1) 100%);
+    color: white;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+#container {
+    padding: 40px;
+    margin: 0 auto;
+}
+.pokedex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    padding-inline-start: 0;
+}
+.card {
+    background-color: white;
+    list-style: none;
+    padding: 40px;
+    color:  rgb(0,36,34);
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    border: 1px solid white;
+    margin: 10px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave */
+}
+.card:hover {
+    transform: translateY(-10px) scale(1.05); /* Move o card para cima e aumenta ligeiramente o tamanho!!*/
+}
+.card-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
